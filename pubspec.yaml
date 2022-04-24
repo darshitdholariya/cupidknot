@@ -1,0 +1,51 @@
+name: cupid
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.4
+  hydrated_bloc: ^7.0.0
+  path_provider:
+  flutter_bloc:
+  flutter_screenutil:
+  flutter_staggered_animations:
+  flutter_svg:
+  flutter_gen:
+  page_transition:
+  google_fonts:
+  equatable:
+  intl:
+#  Firebase
+  firebase_core: ^1.15.0
+  cloud_firestore: ^3.1.13
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+  build_runner:
+  flutter_gen_runner:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/
+  #   - images/a_dot_ham.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+
